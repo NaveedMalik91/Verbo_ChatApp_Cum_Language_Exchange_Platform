@@ -2,6 +2,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
+const API_URL = import.meta.env.VITE_API_URL; // get API URL from env
 
 import {
   getOutgoingFriendReqs,
@@ -55,7 +56,7 @@ const HomePage = () => {
   // --- Remove friend handler ---
   const handleRemoveFriendFromHome = async (friendId) => {
     try {
-      await axios.delete(`http://localhost:5001/api/users/friends/${friendId}`, {
+      await axios.delete(`${API_URL}/api/users/friends/${friendId}`, {
         withCredentials: true,
       });
       toast.success("Friend removed!");
