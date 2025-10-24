@@ -1,4 +1,4 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+<h1 align="center">✨ Full Stack Language exchange platform ✨</h1>
 
 
 
