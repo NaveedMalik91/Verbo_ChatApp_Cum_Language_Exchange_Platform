@@ -17,7 +17,6 @@ import {
 import { StreamChat } from "stream-chat";
 import toast from "react-hot-toast";
 
-import ChatLoader from "../components/ChatLoader";
 import CallButton from "../components/CallButton";
 import notificationSound from "../assets/notification.mp3";
 
