@@ -23,7 +23,8 @@
     "nodemailer": "^7.0.10",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
-    "stream-chat": "^8.60.0"
+    "stream-chat": "^8.60.0",
+    "streamify": "file:.."
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
