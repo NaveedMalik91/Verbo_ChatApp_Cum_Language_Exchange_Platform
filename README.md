@@ -1,7 +1,8 @@
 <h1 align="center">✨ Full Stack Language exchange platform ✨</h1>
-##Live link: [https://verbo-hh29.onrender.com]
 
-###Highlights:
+## Live link: [https://verbo-hh29.onrender.com]
+
+### Highlights:
 
 - 🌐 Real-time Messaging with Typing Indicators & Reactions
 - 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
